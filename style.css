@@ -1,0 +1,134 @@
+.book{
+    background-color: red;
+    padding:5px;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    z-index: 2;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    z-index: 1;
+    
+}
+.container{
+    padding: 20px;
+}
+.box-container{
+    margin-top: 100px;
+    background-color: black;
+    z-index: 1;
+    color: white;
+    padding:15px;
+    border-radius: 10px;
+    width: 300px;
+    height: 295px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dele{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+}
+
+.diff{
+    color: red;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.add{
+    background-color: red;
+    font-size: 40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100%;
+    border:none;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+}
+.overlayout{
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1;
+    display:none;
+
+}
+.box-main{
+
+    background-color: red;
+    color: black;
+    width:40%;
+    padding:40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    display: none;
+
+
+
+}
+
+.box-main input{
+    background-color: transparent;
+    border: none;
+    width:100%;
+    margin: 5px;
+    padding:5px;
+    font-size:20px;
+    border-bottom:2px solid black;
+
+}
+
+.box-main textarea{
+    background-color: transparent;
+    border: none;
+    width:100%;
+    margin: 5px;
+    padding:5px;
+    font-size:20px;
+    border:2px solid black;
+
+}
+
+.box-main input::placeholder{
+    color: black;
+}
+
+.box-main textarea::placeholder{
+    color:black;
+}
+
+.box-main input:focus{
+    outline:none;
+}
+
+.box-main textarea:focus{
+    outline:none;
+}
+
+.box-main button{
+    background-color: black;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color:white
+}
